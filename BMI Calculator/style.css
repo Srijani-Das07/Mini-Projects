@@ -1,0 +1,112 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background 0.4s, color 0.4s;
+    }
+
+    /* Dark mode default */
+    body.dark {
+        background: linear-gradient(to bottom right, black, purple);
+        color: white;
+    }
+
+    body.light {
+        background: linear-gradient(to bottom right, white, lightgray);
+        color: black;
+    }
+
+    form {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(128, 0, 128, 0.6);
+        transition: background 0.4s, color 0.4s;
+    }
+
+    body.dark form {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    body.light form {
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    label, input, button {
+        display: block;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    input {
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid purple;
+        width: 80%;
+        transition: background 0.4s, color 0.4s;
+    }
+
+    body.dark input {
+        background-color: black;
+        color: white;
+    }
+
+    body.light input {
+        background-color: white;
+        color: black;
+    }
+
+    button {
+        padding: 8px 15px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        transition: background 0.4s, color 0.4s;
+    }
+
+    body.dark button {
+        background-color: purple;
+        color: white;
+    }
+
+    body.light button {
+        background-color: purple;
+        color: white;
+    }
+
+    button:hover {
+        opacity: 0.85;
+    }
+
+    #result {
+    	margin-top: 15px;
+    	opacity: 0;
+    	transition: opacity 0.8s ease-in-out;
+    }
+
+#result.show {
+    opacity: 1;
+}
+
+    /* Theme toggle button */
+    #themeToggle {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: none;
+        border: 2px solid currentColor;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+	.container {
+    		display: flex;
+    		flex-direction: column;
+    		align-items: center;
+	}
