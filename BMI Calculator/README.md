@@ -15,3 +15,12 @@ A simple **BMI (Body Mass Index) Calculator** built using **HTML, CSS, and JavaS
 4. Use the toggle button to switch between dark and light mode.  
 
 ---
+
+## Preview
+### Dark Mode
+![BMI Calculator Dark Mode](dark-mode.png)
+
+### Light Mode
+![BMI Calculator Light Mode](light-mode.png)
+
+---
