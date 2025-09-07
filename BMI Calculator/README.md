@@ -17,10 +17,10 @@ A simple **BMI (Body Mass Index) Calculator** built using **HTML, CSS, and JavaS
 ---
 
 ## Preview
-### Dark Mode
-![BMI Calculator Dark Mode](dark-mode.png)
 
-### Light Mode
-![BMI Calculator Light Mode](light-mode.png)
+<p align="center">
+  <img src="dark-mode.png" alt="Dark Mode" width="45%" />
+  <img src="light-mode.png" alt="Light Mode" width="45%" />
+</p>
 
 ---
