@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.upload-box {
+    display: inline-block;
+    padding: 20px;
+    border: 2px dashed #007bff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 400px;
+    margin: auto;
+}
+
+li {
+    background: white;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark li {
+    background: #1e1e1e;
+}

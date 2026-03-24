@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Merger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>PDF Merger</h1>
+
+    <label class="upload-box" id="dropZone">
+        Drag & Drop PDFs here or Click to Upload
+        <input type="file" id="pdfFiles" multiple accept="application/pdf" hidden>
+    </label>
+
+    <ul id="fileList"></ul>
+
+    <div class="buttons">
+        <button onclick="mergePDFs()">Merge PDFs</button>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+
+    <p id="status"></p>
+</div>
+
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
