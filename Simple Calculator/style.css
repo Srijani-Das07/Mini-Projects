@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator Box */
+.calculator {
+    background: #222;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* Display Screen */
+input {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 12px;
+    background: #111;
+    color: white;
+}
+
+/* Buttons Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 15px;
+}
+
+/* Buttons */
+button {
+    height: 70px;
+    font-size: 22px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+    transition: 0.2s;
+}
+
+/* Hover Effect */
+button:hover {
+    background: #666;
+}
+
+/* Operator Buttons (+ - * /) */
+button:nth-child(4n) {
+    background: #ff9500;
+}
+
+button:nth-child(4n):hover {
+    background: #e08900;
+}
+
+/* Equal Button (=) */
+button:nth-child(14) {
+    background: #00c853;
+}
+
+button:nth-child(14):hover {
+    background: #00a844;
+}
+
+/* Clear Button (C) */
+button:nth-child(15) {
+    background: #d50000;
+}
+
+button:nth-child(15):hover {
+    background: #b00000;
+}
