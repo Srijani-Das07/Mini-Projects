@@ -38,13 +38,13 @@ Play against a friend directly in the browser with a clean and responsive interf
 ---
 
 ## Project Structure
-
+```
 Tic Tac Toe/
 │── index.html
 │── style.css
 │── script.js
 │── README.md
-
+```
 ---
 
 ## Usage

@@ -37,13 +37,13 @@ It performs all basic arithmetic operations with a minimal interface.
 ---
 
 ## Project Structure
-
+```
 Simple Calculator/
 │── index.html
 │── style.css
 │── script.js
 │── README.md
-
+```
 ---
 
 ## Usage

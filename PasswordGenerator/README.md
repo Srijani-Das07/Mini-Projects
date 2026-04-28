@@ -38,13 +38,13 @@ It allows users to generate strong passwords with customizable options.
 ---
 
 ## Project Structure
-
+```
 PasswordGenerator/
 │── index.html
 │── style.css
 │── script.js
 │── README.md
-
+```
 ---
 
 ## Usage
