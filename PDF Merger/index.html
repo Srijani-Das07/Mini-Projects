@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Merger</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="icon">📄</div>
+      <h1>PDF Merger</h1>
+      <p class="subtitle">Combine multiple PDFs into one — right in your browser</p>
+    </header>
+
+    <div class="upload-area" id="dropZone">
+      <div class="upload-icon">⬆️</div>
+      <p class="upload-text">Drag & drop PDF files here</p>
+      <p class="upload-sub">or</p>
+      <label for="fileInput" class="browse-btn">Browse Files</label>
+      <input type="file" id="fileInput" accept=".pdf" multiple hidden>
+    </div>
+
+    <div class="file-list" id="fileList"></div>
+
+    <div class="actions" id="actions" style="display:none">
+      <button class="clear-btn" id="clearBtn">Clear All</button>
+      <button class="merge-btn" id="mergeBtn">Merge PDFs</button>
+    </div>
+
+    <div class="status" id="status"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
